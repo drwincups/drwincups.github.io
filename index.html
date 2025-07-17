@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Website Saya</h1>
+    <p>Dibuat dengan GitHub Pages</p>
+    <button onclick="toggleDarkMode()">🌙 Mode Gelap</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya sedang belajar membuat website menggunakan GitHub Pages.</p>
+      <img src="images/contoh.jpg" alt="Gambar contoh" width="300">
+    </section>
+
+    <section class="gallery">
+      <h2>Galeri Gambar</h2>
+      <div class="gallery-grid">
+        <img src="images/contoh.jpg" alt="Galeri 1">
+        <img src="images/contoh.jpg" alt="Galeri 2">
+        <img src="images/contoh.jpg" alt="Galeri 3">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website Saya</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
